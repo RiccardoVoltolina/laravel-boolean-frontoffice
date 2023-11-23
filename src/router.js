@@ -9,7 +9,7 @@ import HomeView from "./views/HomeView.vue";
 
 import AppHeader from "./components/AppHeader.vue";
 
-
+import OurTeam from "./views/OurTeam.vue";
 
 
 
@@ -31,6 +31,13 @@ const routes = [
         component: AppHeader,
     },
 
+    {
+        path: '/about',
+
+        name: 'about',
+
+        component: OurTeam,
+    }
    
 ]
 
