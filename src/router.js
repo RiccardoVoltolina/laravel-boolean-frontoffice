@@ -7,9 +7,7 @@ import { createWebHashHistory, createRouter } from 'vue-router';
 
 import HomeView from "./views/HomeView.vue";
 
-import SingleProjectView from "./views/SingleProjectView.vue"
 
-import NotFound from "./views/NotFound.vue"
 
 
 
@@ -24,22 +22,14 @@ const routes = [
     { path: '/', component: HomeView },
 
     {
-        path: '/project/:id',
+        path: '/drinks/:id',
 
-        name: 'project',
+        name: 'drink',
 
         component: SingleProjectView,
     },
 
-    {
-        // creo il percorso web per la pagina di errore
-        
-        path: '/:pathMatch(.*)*',
-
-        name: 'NotFound',
-
-        component: NotFound,
-    }
+   
 ]
 
 // creo la rotta
