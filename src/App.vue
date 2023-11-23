@@ -26,7 +26,6 @@ export default {
 
     <router-view></router-view>
 
-
   </main>
 </template>
 

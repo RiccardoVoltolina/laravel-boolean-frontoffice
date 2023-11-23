@@ -21,7 +21,7 @@ export default {
         }
     },
 
- 
+
     mounted() {
 
         // richiamo la funzione per la mia chiamata
@@ -32,7 +32,7 @@ export default {
 
     methods: {
 
-  
+
 
         // eseguo la chiamata axios
 
@@ -57,10 +57,7 @@ export default {
 <template>
     <div id="app">
 
-    <h1>ciao</h1>
-
-       
-
+        <h1>ciao</h1>
 
     </div>
 </template>

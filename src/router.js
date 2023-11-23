@@ -23,6 +23,8 @@ const routes = [
 
     { path: '/', component: HomeView },
 
+    //{ path: '/contacts', name: 'contacts', component: ContactsView },
+
     {
         path: '/drinks/:id',
 
