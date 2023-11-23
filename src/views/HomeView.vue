@@ -18,10 +18,15 @@ export default {
 
             cocktails: [],
 
+
+            
+            
+
+
         }
     },
 
- 
+
     mounted() {
 
         // richiamo la funzione per la mia chiamata
@@ -32,7 +37,7 @@ export default {
 
     methods: {
 
-  
+
 
         // eseguo la chiamata axios
 
@@ -48,23 +53,74 @@ export default {
                 .catch(err => {
                     console.error(err);
                 })
-        }
+
+
+        },
+
+        
+
 
     },
+
+
 }
 </script>
 
 <template>
     <div id="app">
 
-    <h1>ciao</h1>
+        <div class="container">
+            <h1>Drinks:</h1>
 
-       
+
+
+            <div class="row row-cols-lg-3">
+                <div class="col" v-for="cocktail in cocktails">
+                    <div class="py-3 h-100">
+
+                        <div class="card h-100 text-center">
+                            <div class="img_container">
+                                <img :src="cocktail.drinkThumb" alt="...">
+                            </div>
+                            <h2>{{ cocktail.name }}</h2>
+                            <p>{{ cocktail.type }}</p>
+                            <p>{{ cocktail.instructions }}</p>
+
+                            <div v-for="ingredient in cocktail.ingredients">
+                                <div>{{ ingredient.name }}</div>
+                                <div>{{ ingredient.measure }}</div>
+                            </div>
+
+                            <small>{{ cocktail.glass }}</small>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
 
 
     </div>
 </template>
 
-<style></style>
+<style>
+.img_container {
+
+    width: 100%;
+    height: 300px;
+
+
+}
+
+.img_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+</style>
 
 
