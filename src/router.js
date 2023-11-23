@@ -9,6 +9,10 @@ import HomeView from "./views/HomeView.vue";
 
 import SingleProjectView from "./views/SingleProjectView.vue"
 
+import ContactsView from "./views/ContactsView.vue"
+
+import OurTeam from "./views/OurTeam.vue"
+
 import NotFound from "./views/NotFound.vue"
 
 
@@ -21,7 +25,7 @@ const routes = [
 
     // ricordarsi di far iniziare il path con /
 
-    { path: '/', component: HomeView },
+    { path: '/', name: 'home', component: HomeView },
 
     {
         path: '/project/:id',
@@ -29,6 +33,14 @@ const routes = [
         name: 'project',
 
         component: SingleProjectView,
+    },
+
+    {
+        path: '/about',
+
+        name: 'about',
+
+        component: OurTeam,
     },
 
     {
@@ -51,4 +63,4 @@ const router = createRouter({
     routes
 });
 
-export { router }
+export { router };
