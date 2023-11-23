@@ -7,7 +7,7 @@ export default {
 
 <template>
 
-    <h1>Contacts</h1>
+
 
     <!-- Form Name -->
     <form action="post">
