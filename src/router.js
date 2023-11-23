@@ -7,6 +7,8 @@ import { createWebHashHistory, createRouter } from 'vue-router';
 
 import HomeView from "./views/HomeView.vue";
 
+import AppHeader from "./components/AppHeader.vue";
+
 
 
 
@@ -26,7 +28,7 @@ const routes = [
 
         name: 'drink',
 
-        component: SingleProjectView,
+        component: AppHeader,
     },
 
    
