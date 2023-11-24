@@ -12,9 +12,9 @@ export default {
         <div class="container w-50">
 
             <!-- Form Name -->
-            <form action="post">
+            <form action="post" class="pt-5">
 
-                <div class="mb-3">
+                <div class="pt-5 mb-3">
                     <label for="name" class="form-label">Your Name</label>
                     <input type="text" name="name" id="name" class="form-control" placeholder="Marco"
                         aria-describedby="NameHelpId">
@@ -59,5 +59,6 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    height: 100vh;
 }
 </style>
