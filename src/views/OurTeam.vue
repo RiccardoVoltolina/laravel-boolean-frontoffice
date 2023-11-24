@@ -25,7 +25,7 @@ export default {
                         <div class="card border-0 rounded-4">
                             <img class="card-img-top rounded-4" src="https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2017/04/negroni-cocktail-ricetta.jpg" alt="Negroni">
                         </div>
-                        <h3 class="text-muted">Negroni</h3>
+                        <h3 class="text-white">Negroni</h3>
                     </router-link>    
                 </div>
                 <div class="col-3">
@@ -34,7 +34,7 @@ export default {
                         <div class="card border-0 rounded-4">
                             <img class="card-img-top rounded-4" src="https://winedharma.com/wine-dharma/uploads/2020/10/Long-Island-iced-tea-cocktail-ricetta-ingredienti-dosi-e-la-storia.jpg" alt="Long Island Ice Tea">
                         </div>
-                        <h3 class="text-muted">Long Island Ice Tea</h3>
+                        <h3 class="text-white">Long Island Ice Tea</h3>
                     </router-link>    
                 </div>
                 <div class="col-3">
@@ -43,7 +43,7 @@ export default {
                         <div class="card border-0 rounded-4">
                             <img class="card-img-top rounded-4" src="https://media-assets.lacucinaitaliana.it/photos/61fa990eae710c29191814f3/3:2/w_846,h_564,c_limit/I-migliori-cocktail-a-base-di-wishky.jpg" alt="Whisky">
                         </div>
-                        <h3 class="text-muted">Whisky</h3>
+                        <h3 class="text-white">Whisky</h3>
                     </router-link>
                 </div>
                 <div class="col-3">
@@ -52,7 +52,7 @@ export default {
                         <div class="card border-0 rounded-4">
                             <img class="card-img-top rounded-4" src="https://www.buttalapasta.it/wp-content/uploads/2016/08/ricetta-mojito.jpg" alt="Mojito">
                         </div>
-                        <h3 class="text-muted">Mojito</h3>
+                        <h3 class="text-white">Mojito</h3>
                     </router-link>
                 </div>
             </div>
