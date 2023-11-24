@@ -11,6 +11,8 @@ import AppHeader from "./components/AppHeader.vue";
 
 import OurTeam from "./views/OurTeam.vue";
 
+import ContactsView from "./views/ContactsView.vue";
+
 
 
 
@@ -37,8 +39,16 @@ const routes = [
         name: 'about',
 
         component: OurTeam,
-    }
-   
+    },
+
+    {
+        path: '/contacts',
+
+        name: 'contacts',
+
+        component: ContactsView,
+    },
+    
 ]
 
 // creo la rotta
