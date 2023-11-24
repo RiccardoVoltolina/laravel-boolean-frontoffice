@@ -17,58 +17,50 @@ export default {
     <section class="drink">
         <div class="container text-center text-warning">
             <h2>Follow Us</h2>
-            <p class="text-decoration-underline">share our work, don't miss the drinks coming soon by following us on social network.</p>
+            <p class="text-decoration-underline mb-5">share our work, don't miss the drinks coming soon by following us on social network.</p>
             <div class="row">
                 <div class="col-3">
-                    <div class="card border-0">
-                        <img class="card-img-top" src="https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2017/04/negroni-cocktail-ricetta.jpg" alt="Negroni">
-                        <div class="card-body">
-
+                    <router-link class="text-decoration-none" to="/">
+                        <h5 class="text-success">Coming soon</h5>
+                        <div class="card border-0 rounded-4">
+                            <img class="card-img-top rounded-4" src="https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2017/04/negroni-cocktail-ricetta.jpg" alt="Negroni">
                         </div>
-                    </div>
+                        <h3 class="text-muted">Negroni</h3>
+                    </router-link>    
                 </div>
                 <div class="col-3">
-                    <div class="card border-0">
-                        <img class="card-img-top" src="https://winedharma.com/wine-dharma/uploads/2020/10/Long-Island-iced-tea-cocktail-ricetta-ingredienti-dosi-e-la-storia.jpg" alt="Long Island Ice Tea">
-                        <div class="card-body">
-
+                    <router-link class="text-decoration-none" to="/">
+                        <h5 class="text-success">Coming soon</h5>
+                        <div class="card border-0 rounded-4">
+                            <img class="card-img-top rounded-4" src="https://winedharma.com/wine-dharma/uploads/2020/10/Long-Island-iced-tea-cocktail-ricetta-ingredienti-dosi-e-la-storia.jpg" alt="Long Island Ice Tea">
                         </div>
-                    </div>
+                        <h3 class="text-muted">Long Island Ice Tea</h3>
+                    </router-link>    
                 </div>
                 <div class="col-3">
-                    <div class="card border-0">
-                        <img class="card-img-top" src="https://media-assets.lacucinaitaliana.it/photos/61fa990eae710c29191814f3/3:2/w_846,h_564,c_limit/I-migliori-cocktail-a-base-di-wishky.jpg" alt="Whisky">
-                        <div class="card-body">
-
+                    <router-link class="text-decoration-none" to="/">
+                        <h5 class="text-success">Coming soon</h5>
+                        <div class="card border-0 rounded-4">
+                            <img class="card-img-top rounded-4" src="https://media-assets.lacucinaitaliana.it/photos/61fa990eae710c29191814f3/3:2/w_846,h_564,c_limit/I-migliori-cocktail-a-base-di-wishky.jpg" alt="Whisky">
                         </div>
-                    </div>
+                        <h3 class="text-muted">Whisky</h3>
+                    </router-link>
                 </div>
                 <div class="col-3">
-                    <div class="card border-0">
-                        <img class="card-img-top" src="https://www.buttalapasta.it/wp-content/uploads/2016/08/ricetta-mojito.jpg" alt="Mojito">
-                        <div class="card-body">
-                            
+                    <router-link class="text-decoration-none" to="/">
+                        <h5 class="text-success">Coming soon</h5>
+                        <div class="card border-0 rounded-4">
+                            <img class="card-img-top rounded-4" src="https://www.buttalapasta.it/wp-content/uploads/2016/08/ricetta-mojito.jpg" alt="Mojito">
                         </div>
-                    </div>
+                        <h3 class="text-muted">Mojito</h3>
+                    </router-link>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="social bg-dark py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-2">
-                    <div class="card bg-transparent">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
+        <div class="container text-center">
             <div class="row">
                 <div class="col-2">
                     <a href="#">
@@ -93,6 +85,11 @@ export default {
                 <div class="col-2">
                     <a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
                     </a>
                 </div>
             </div>
@@ -136,6 +133,7 @@ export default {
 }
 svg{
     fill: white;
+    font-size: 2rem;
 }
 .bar{
     background-image: url(https://images.squarespace-cdn.com/content/v1/53162615e4b08f2413caa7c2/1433114543363-JZNJMLXI1Q29P6X9TQJ4/hemingway-bar-prague);
