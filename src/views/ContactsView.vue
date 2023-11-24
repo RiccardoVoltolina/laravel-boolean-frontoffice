@@ -7,14 +7,18 @@ export default {
 
 <template>
 
-    <section id="contacts" class="py-5 text-white">
+    <section id="contacts" class="py-5 text-white fs-4">
 
         <div class="container w-50">
+
+            <div class="container text-center text-white pt-5">
+                Subscribe your email for add Our Team & receive the newsletters
+            </div>
 
             <!-- Form Name -->
             <form action="post">
 
-                <div class="mb-3">
+                <div class="pt-5 mb-3">
                     <label for="name" class="form-label">Your Name</label>
                     <input type="text" name="name" id="name" class="form-control" placeholder="Marco"
                         aria-describedby="NameHelpId">
@@ -45,7 +49,7 @@ export default {
             </form>
 
             <!-- Btn for to send your name, surname and email -->
-            <a class="btn btn-warning">Subscribe</a>
+            <a class="btn btn-warning mt-4">Subscribe</a>
 
         </div>
 
@@ -59,5 +63,6 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    height: 100vh;
 }
 </style>
