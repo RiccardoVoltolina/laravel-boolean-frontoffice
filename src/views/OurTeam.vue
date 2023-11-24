@@ -98,22 +98,19 @@ export default {
 
     <section class="bar">
         <div class="newsletter">
-            <div class="container">
+            <div class="container text-center">
                 <div class="row">
                     <div class="col-12">
                         <div class="card text-white bg-transparent border-0 rounded-0">
 
-                            <h4 class="mb-3">Subscribe to the newsletter and meet Us</h4>
-                            <form action="">
+                            <h3 class="mb-5">Subscribe to the newsletter and meet Us</h3>
 
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" name="email" id="email" class="form-control" placeholder="email@example.com" aria-describedby="emailHelper">
-                                </div>
+                            <div class="d-flex justify-content-center">
 
-                                <button type="submit" class="btn btn-primary">Subscribe</button>
-                            </form>
-
+                                <router-link class="text-center btn btn-primary w-25" to="/contacts">Subscribe</router-link>
+                            
+                            </div>
+        
                         </div>
                     </div>
                 </div>
