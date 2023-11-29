@@ -72,6 +72,7 @@ export default {
         <section class="home_image pb-5 bg-black">
             <div class="container home_image">
                 <h1 class="py-5 text-white">Tanti drinks ti aspettano, vieni a scoprirli tutti!</h1>
+                
 
 
 
@@ -91,11 +92,11 @@ export default {
 
                                     <p>{{ cocktail.instructions }}</p>
 
-                                    <H5>ALCOLICO?</H5>
+                                    <h5>ALCOLICO?</h5>
 
-                                    <div class="py-2" v-if="cocktail.alcoholic == 1">Alcolico</div>
+                                    <div class="pb-2" v-if="cocktail.alcoholic === 1">Alcolico</div>
 
-                                    <div class="d-none over_block">
+                                    <div class="over_block">
 
                                         <h5>INGREDIENTI:</h5>
 
@@ -106,7 +107,7 @@ export default {
                                     </div>
 
 
-                                    <h5>BICCHIERE:</h5>
+                                    <h5 class="py-2">BICCHIERE:</h5>
 
                                     <small>{{ cocktail.glass }}</small>
                                 </div>
