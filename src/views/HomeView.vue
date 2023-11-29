@@ -69,7 +69,7 @@ export default {
 <template>
     <div id="app">
 
-        <section class="home_image pb-5">
+        <section class="home_image pb-5 bg-black">
             <div class="container home_image">
                 <h1 class="py-5 text-white">Tanti drinks ti aspettano, vieni a scoprirli tutti!</h1>
 
@@ -168,12 +168,6 @@ img:hover {
 .overflow_hidden::-webkit-scrollbar {
     display: none;
 
-}
-
-.home_image {
-
-    background-image: url(https://images.squarespace-cdn.com/content/v1/53162615e4b08f2413caa7c2/1433114543363-JZNJMLXI1Q29P6X9TQJ4/hemingway-bar-prague);
-    background-size: cover;
 }
 
 .img_container {
