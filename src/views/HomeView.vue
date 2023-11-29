@@ -85,29 +85,29 @@ export default {
 
                                 <div class="shadow overflow_hidden">
                                     <h2>{{ cocktail.name }}</h2>
-                                    <h5>TIPOLOGIA:</h5>
+                                    <h6>TIPOLOGIA:</h6>
 
                                     <p>{{ cocktail.type }}</p>
-                                    <h5>PREPARAZIONE:</h5>
+                                    <h6>PREPARAZIONE:</h6>
 
                                     <p>{{ cocktail.instructions }}</p>
 
-                                    <h5>ALCOLICO?</h5>
+                                    <h6>ALCOLICO?</h6>
 
                                     <div class="pb-2" v-if="cocktail.alcoholic === 1">Alcolico</div>
 
                                     <div class="over_block">
 
-                                        <h5>INGREDIENTI:</h5>
+                                        <h6>INGREDIENTI:</h6>
 
                                         <div v-for="ingredient in cocktail.ingredients">
                                             <div>{{ ingredient.name }}</div>
-                                            <div>{{ ingredient.measure }}</div>
+                                            <p>{{ ingredient.measure }}</p>
                                         </div>
                                     </div>
 
 
-                                    <h5 class="pt-2">BICCHIERE:</h5>
+                                    <h6 class="pt-2">BICCHIERE:</h6>
 
                                     <small>{{ cocktail.glass }}</small>
                                 </div>
@@ -189,6 +189,10 @@ img:hover {
 
 .over_block.over_block:hover {
     display: block;
+}
+
+p {
+    font-size: 13px;
 }
 </style>
 
