@@ -107,7 +107,7 @@ export default {
                                     </div>
 
 
-                                    <h5 class="py-2">BICCHIERE:</h5>
+                                    <h5 class="pt-2">BICCHIERE:</h5>
 
                                     <small>{{ cocktail.glass }}</small>
                                 </div>
